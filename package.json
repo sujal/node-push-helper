@@ -1,0 +1,22 @@
+{
+  "name": "node-push-helper",
+  "version": "0.0.1",
+  "description": "A simple set of functions to handle PubSubHubbub handshakes & verification",
+  "keywords": [
+    "pubsubhubbub",
+    "api"
+  ],
+  "author": "Sujal Shah <codesujal@gmail.com>",
+  "main": "lib/push_helper",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sujal/node-push-helper"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  }
+}
