@@ -36,7 +36,7 @@ app.post('/instagram/realtime', PuSHHelper.verifier(config.instagram.client_secr
 });
 ````
 
-You can see a working example in the [Proxigram](https://github.com/sujal/proxigram) source code. 
+You can see a working example in the [Proxigram source code](https://github.com/sujal/proxigram). 
 
 ## Credits
 
