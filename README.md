@@ -19,7 +19,24 @@ that can be used in an express.js app or anywhere else.
 
 ## Examples
 
-Coming soon.
+Here's my subscription code from my app. 
+
+````javascript
+// a GET request will be a challenge query
+app.get('/instagram/realtime', function(req, res){
+  PuSHHelper.handshake(req, res);
+});
+
+// this is where Instagram will send updates (using POST)
+app.post('/instagram/realtime', PuSHHelper.verifier(config.instagram.client_secret), function(req, res){
+  console.log("Received a notification");
+  
+  // process the notifications
+  
+});
+````
+
+You can see a working example in the [Proxigram](https://github.com/sujal/proxigram) source code. 
 
 ## Credits
 
